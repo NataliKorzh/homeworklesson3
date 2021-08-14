@@ -1,0 +1,32 @@
+.flex-item {
+    width: auto;
+    height: auto;
+    background-color: white;
+    flex-flow: row;
+    -ms-flex-direction: row;
+    align-content: center;
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    background-color: #fdde7e;
+    height: 600px;
+    width: 1200px;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.second {
+  margin: 40px;
+}
+
+
+
+
+
